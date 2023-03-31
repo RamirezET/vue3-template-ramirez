@@ -105,6 +105,9 @@ devDependencies:
   vite-plugin-svg-icons:
     specifier: ^2.0.1
     version: 2.0.1(vite@4.1.4)
+  vite-plugin-vue-setup-extend-plus:
+    specifier: ^0.1.0
+    version: 0.1.0
   vitest:
     specifier: ^0.29.1
     version: 0.29.1(jsdom@21.1.0)(sass@1.60.0)(terser@5.16.8)
@@ -6310,6 +6313,10 @@ packages:
       vite: 4.1.4(@types/node@18.14.2)(sass@1.60.0)(terser@5.16.8)
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /vite-plugin-vue-setup-extend-plus@0.1.0:
+    resolution: {integrity: sha512-pa27KIsHIBvBMv4xz9uB3UCfAuP2tr7PLlFhCS9vw+aXd326LEHsvhqd3hCQDOR5MjlQVyQH6vwuGr3u+KRiiw==}
     dev: true
 
   /vite@4.1.4(@types/node@18.14.2)(sass@1.60.0)(terser@5.16.8):

@@ -13,6 +13,7 @@ import { wrapperEnv } from "./src/utils/getEnv";
 import { visualizer } from "rollup-plugin-visualizer";
 import { createSvgIconsPlugin } from "vite-plugin-svg-icons";
 import { resolve } from "path";
+import vueSetupExtend from "vite-plugin-vue-setup-extend-plus";
 import viteCompression from "vite-plugin-compression";
 import eslintPlugin from "vite-plugin-eslint";
 
@@ -44,6 +45,8 @@ export default defineConfig(({ mode }: ConfigEnv): UserConfig => {
         iconDirs: [resolve(process.cwd(), "src/assets/icons")],
         symbolId: "icon-[dir]-[name]"
       }),
+      // * name 可以写在 script 标签上
+      vueSetupExtend(),
       // * EsLint 报错信息显示在浏览器界面上
       eslintPlugin(),
       // * gzip compress

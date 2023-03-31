@@ -6,7 +6,7 @@
 </template>
 
 <!-- <script setup lang="ts" name="svgIcon">
-import SvgIcon from "@/components/SvgIcon/index.vue";
+import SvgIcon from "@/components/Svg-Icon";
 </script> -->
 
 <style>
