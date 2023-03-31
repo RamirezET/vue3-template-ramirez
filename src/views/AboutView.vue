@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1 class="color-red">This is an about page</h1>
     <!-- <SvgIcon name="xianxingdaoyu" /> -->
   </div>
 </template>

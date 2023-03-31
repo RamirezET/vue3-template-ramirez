@@ -8,6 +8,7 @@
     "baseUrl": ".",
     "noImplicitAny": false,
     "strictNullChecks": false,
+    "ignoreDeprecations":"5.0",
     "paths": {
       "@/*": ["./src/*"],
       "three/addons/*": ["./node_modules/three/examples/jsm/*"]
